@@ -29,11 +29,6 @@
       140
     ],
     "member-access": false,
-    "member-ordering": [
-      true,
-      "static-before-instance",
-      "variables-before-functions"
-    ],
     "no-arg": true,
     "no-bitwise": true,
     "no-console": [
@@ -76,6 +71,7 @@
     "prefer-const": true,
     "radix": true,
     "semicolon": [
+      true,
       "always"
     ],
     "triple-equals": [
@@ -112,7 +108,7 @@
     "component-selector": [
       true,
       "element",
-      "app",
+      [],
       "kebab-case"
     ],
     "use-input-property-decorator": true,
